@@ -12,7 +12,7 @@ int main(void)
 
 	while (a <= 'z')
 	{
-		putchat(a);
+		putchar(a);
 		a++;
 	}
 
