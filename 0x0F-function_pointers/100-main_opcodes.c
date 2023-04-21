@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	int (*address)(int, char **) = main;
 	unsigned char opcode;
 
-	if(argc != 2)
+	if (argc != 2)
 	{
 		printf("Error\n");
 		exit(1);
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 
 	bytes = atoi(argv[1]);
 
-	if (bytes < 0 )
+	if (bytes < 0)
 	{
 		printf("Error\n");
 		exit(2);
